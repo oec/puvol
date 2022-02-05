@@ -1,4 +1,4 @@
-module puvol
+module kesim.org/puvol
 
 go 1.17
 
