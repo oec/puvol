@@ -1,4 +1,4 @@
-# Simple PulseAudio volume monitor
+# Simple PulseAudio volume monitor for xmobar
 
 This little monitor is my attempt to read the current volume and mute setting
 of the default sink from PulseAudio and make it accessible to xmobar:
@@ -10,7 +10,7 @@ Config { commands = [ Run CommandReader "puvol-cont" "Vol" ]
 
 If it is called as `puvol-cont` it will wait for updates from PulseAudio, read
 the current value of the mute and volume states and write an output line to
-stdout.
+stdout (`🔇` or volume percentage).
 
 ## Installation
 
